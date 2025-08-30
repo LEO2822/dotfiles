@@ -87,3 +87,10 @@ fv() { nvim "$(find . -type f -not -path '*/.*' | fzf)" }
 export XDG_CONFIG_HOME="$HOME/.config"
 
 eval "$(zoxide init zsh)"
+
+# Atuin Configuration
+export ATUIN_NOBIND="true"
+eval "$(atuin init zsh)"
+bindkey '^r' atuin-up-search-viins
+
+export PATH="$HOME/.local/bin:$PATH"
