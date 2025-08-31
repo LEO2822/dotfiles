@@ -6,7 +6,8 @@ background-blur-radius = 30
 # macos-titlebar-style = hidden
 
 
-theme = catppuccin-mocha
+# theme = catppuccin-mocha
+theme = shades-of-purple
 font-size = 14
 font-family = GeistMono NFM Medium
 # background-blur-radius = 20
