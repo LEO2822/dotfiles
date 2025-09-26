@@ -1,20 +1,17 @@
-# By default Reload config with shft + cmd + , 
-# config-file = themes/rosepine 
-# background = #000000
-background-opacity = 0.85
-background-blur-radius = 30
-# macos-titlebar-style = hidden
+# ghostty config
 
+# Theme and font settings
+theme = dark:rose-pine,light:rose-pine-dawn
+font-family = GeistMono NFM Light
+font-size = 14
 
-theme = catppuccin-mocha
-# theme = shades-of-purple
-font-size = 13
-font-family = GeistMono NFM Medium
-# background-blur-radius = 20
-mouse-hide-while-typing = true
-window-decoration = true
-# keybind = global:cmd+/=toggle_quick_terminal
-macos-option-as-alt = true
-# background-opacity = 0.7
-# background-blur-radius = 20 
+# Window sizing settings - Start maximized instead of specific 
+window-width = 260
+window-height = 85
 
+# Font Ligatures
+font-feature = "liga, clig, ccmp, ss01, ss02, ss03, ss04, ss05"
+
+# Update the Ghostty
+auto-update = check
+auto-update-channel = stable
